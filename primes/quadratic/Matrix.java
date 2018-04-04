@@ -14,6 +14,6 @@ class Matrix extends Item {
 		this.nextrow = nrow;
 		this.entry = e;
 	}
-	//getters
+	// getters
 	
 }
