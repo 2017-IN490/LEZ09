@@ -14,16 +14,12 @@ class Filter extends primes.goldbach.Filter {
 	}
 
 	Matrix setzerocolumn(Matrix r) {
-	
-		
 		if (r.nextrow != null) {
 			this.nextrow = new Matrix(r.nextrow,setzerocolumn(r.nextrow),BigInteger.ZERO);
 			
 			}
 		else
-									  this.nextrow = null ;
-									  
-		
+			this.nextrow = null ;
 	}
 
 }
