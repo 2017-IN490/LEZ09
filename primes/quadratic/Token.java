@@ -12,7 +12,7 @@ import primes.erathostenes.Item ;
 
 class Token extends primes.erathostenes.Token {
 //private BigInteger num ;
-private Biginteger residual ;
+private Biginteger residue ;
 private Item row ;
 private boolean primality ;
 
