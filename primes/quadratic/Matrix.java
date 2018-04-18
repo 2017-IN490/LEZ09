@@ -3,6 +3,12 @@
  */
 
 
+package primes.quadratic ;
+
+import java.math.BigInteger ;
+import primes.erathostenes.Item ;
+import primes.erathostenes.Token ;
+
 class Matrix extends Item {
 	BigInteger entry ;
 	Item nextrow ;
@@ -30,4 +36,26 @@ class Matrix extends Item {
 	}
 	//getters
 	
+    /* Implementazione del Metodo get ereditato
+       calcolo del rango della matrice (da fare)
+       @return restituisce l'intero nel token
+     */
+public    Token get() {
+	return null ;
+}
+
+    /* implementazione del metodo value() ereditato
+     @return restituisce il BigInteger dell'elemento della matrice
+     */
+
+public    BigInteger value() {
+	return this.entry;
+     } 
+
+public void print() {	
+	System.out.println("M:"+this.entry) ;
+}
+
+
+
 }
