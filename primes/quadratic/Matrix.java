@@ -34,7 +34,7 @@ class Matrix extends Item {
 		this.nextrow = nrow;
 		this.entry = e;
 	}
-	//getters
+	// getters
 	
     /* Implementazione del Metodo get ereditato
        calcolo del rango della matrice (da fare)

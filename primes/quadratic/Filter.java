@@ -21,6 +21,7 @@ class Filter extends primes.goldbach.Filter {
 		else
 			this.nextrow = null ;
 	}
+	
 
 }
 
