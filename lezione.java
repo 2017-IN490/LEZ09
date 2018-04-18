@@ -1,3 +1,8 @@
+/*** implementazione del crivello di ertaostene
+ *
+ * @author Marco Pedicini
+ **/
+
 import primes.erathostenes.Sieve ;
 
 class lezione {
