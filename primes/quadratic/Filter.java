@@ -10,18 +10,18 @@ class Filter extends primes.goldbach.Filter {
 // costruttori
 	Filter(Item tail, BigInteger p) {
 		super(tail,p) ;
-		this.column = new Matrix( tail.nextrow, setzerocolumn(tail.nextrow), Biginteger.ONE);
-	}
+		this.setzerocolumn(tail.next,tail.next.nextrow);
+    }
 
-	Matrix setzerocolumn(Matrix r) {
-		if (r.nextrow != null) {
-			this.nextrow = new Matrix(r.nextrow,setzerocolumn(r.nextrow),BigInteger.ZERO);
-			
-			}
-		else
-			this.nextrow = null ;
-	}
+	Matrix setzerocolumn(Matrix r, Matrix c) {
 	
+		
+		if (tail.nextrow != null) {
+			this.nextrow = new Matrix(setzerocolumn(c.nextrow,c.next)
+			
+		}
+		
+	}
 
 }
 
